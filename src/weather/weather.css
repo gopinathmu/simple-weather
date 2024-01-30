@@ -1,0 +1,155 @@
+:root {
+    --section-overlay: rgb(0,0,0.7);
+    --background-overlay: rgba(0,0,0,0.2)
+  }
+
+  
+  .icon img{
+    height: 70px;
+    width: 70px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    width: 607px;
+    height: 609px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, rgb(221, 210, 210), #2aadcd 100%);
+    color: rgb(0, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  .section-inputs{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    background-color: #fff;
+  }
+
+  form{
+    display: flex;
+    background: #fff;
+    width: 500px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 60px;
+    border: 0.5px solid rgb(88, 90, 91);
+    border-radius: 8px 0px 12px 0px;
+    overflow: hidden;
+  }
+  
+  form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 20px;
+  }
+
+  form button{
+     background: rgb(106, 198, 227);
+     padding: 15px 25px;
+     border: none;
+     outline: none;
+     color: white;
+     letter-spacing: 1px;
+     cursor: pointer;
+     background-color: black;
+     font-size: 17px;
+     border-radius: 0px 0px 8px 0px;
+  }
+
+  form i{
+    align-self: center;
+    margin-left: 15px;
+    font-size: 17px;
+    color: grey;
+  }
+
+  .section-temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+  }
+
+  .data{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .input-btn:hover{
+    background-color: #181113;
+    color: rgb(243, 239, 239);
+    border: 1px solid black;
+  }
+.section-temperature h1{
+  font-size: 30px;
+ }
+
+ @media screen and (max-width: 767px) {
+  .section-temperature {
+    gap: 60px; 
+  }
+  form{
+    display: flex;
+    background: #fff;
+    height: 50px;
+    margin-top: 40px;
+    border: 0.5px solid rgb(88, 90, 91);
+    border-radius: 8px 0px 12px 0px;
+    overflow: hidden;
+    width: 350px;
+    margin-left: 30px;
+
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+    width: 407px;
+    height: 609px;
+  }
+  form input{
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    width: 220px;
+    margin-left: 20px
+  }
+  form button{
+    padding: 17px 15px;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+    font-size: 15px;
+    margin-left: 40px;
+    
+ }
+ form i{
+  visibility: hidden;
+}
+.section-inputs{
+  height: 100%;
+  width: 75%;
+}
+.section-temperature h1{
+  font-size: 20px;
+ }
+}
+

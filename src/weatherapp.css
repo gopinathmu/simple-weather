@@ -1,0 +1,61 @@
+:root {
+    --section-overlay: rgb(0,0,0.7);
+    --background-overlay: rgba(0,0,0,0.2)
+  }
+  
+  .icon img{
+    height: 50px;
+    width: 50px;
+  }
+  
+  .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    width: 607px;
+    height: 609px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130751, #3b2f80 100%);
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    
+  }
+  
+  
+  .section-inputs{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 60px;
+  }
+  .section-inputs input{
+    display: flex;
+    height: 50px;
+    width: 350px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding-left: 30px;
+    font-size: 20px;
+  }
+  .input-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .section-temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+  }
